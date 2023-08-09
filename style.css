@@ -1,0 +1,93 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --fw-semi-bold:400;
+    --fw-bold:700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: var(--White);
+    padding: 20px;
+    margin: auto;
+    width: 340px;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 20px 20px --Grayish-blue;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+    color: var(--Dark-blue);
+}
+
+img{
+    position: relative;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a
+{ 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* MQ */  
+@media (max-width: 375px) {
+    .card {
+      width: 80%; /* Make the card full width on smaller screens */
+      max-width: 340px; /* Set a maximum width to prevent excessive expansion */
+      margin: 0 auto; /* Center the card horizontally */
+    }
+  }
+
+/* Utility Classes */
+
+.fw-bold {
+    font-weight: var(--fw-bold);
+  }
+  .fw-semi-bold {
+    font-weight: var(--fw-semi-bold);
+  }
