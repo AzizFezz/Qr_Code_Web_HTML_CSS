@@ -2,7 +2,7 @@
 
 This is my submission for the QR Code Component challenge on Frontend Mentor. The challenge was to create a QR code component for a solution submission form.
 
-![Preview](./screenshot.png)
+![Preview](./desktop-preview.jpg)
 
 ## Table of Contents
 - [Demo](#demo)
