@@ -36,16 +36,17 @@ body{
     box-shadow: 20px 20px --Grayish-blue;
 }
 
-h2{
+h1{
     text-align: center;
     padding-top: 20px;
+    font-size: 23px;
 }
 
 p{
     text-align: center;
     padding: 20px 0;
     font-size: 15px;
-    color: var(--Dark-blue);
+    color: var(--Grayish-blue);
 }
 
 img{
@@ -55,7 +56,7 @@ img{
     height: 300px;
 }
 
-.footer{
+footer{
     position: absolute;
     bottom: 0;
     width: 100%;
